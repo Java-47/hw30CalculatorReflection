@@ -1,0 +1,18 @@
+To add you own operation you need to.
+
+1. Create new Class in telran.operation package
+
+2. Your class must contain method named "execute"
+
+3. Method "execute" must take 2 double parameters (double a, double b) and return double value.
+
+example:
+
+package telran.operations;
+public class YourOperation {
+	
+    public double execute(double a, double b) {
+        double res;
+		return res;
+    }
+}
