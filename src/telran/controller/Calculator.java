@@ -26,7 +26,7 @@ public class Calculator {
 		}
 
 		Calculator calculator = new Calculator();
-		double res = calculator.calc(Integer.parseInt(args[0]), Integer.parseInt(args[1]), args[2]);
+		double res = calculator.calc(Double.parseDouble(args[0]), Double.parseDouble(args[1]), args[2]);
 		System.out.println(res);
 	}
 
